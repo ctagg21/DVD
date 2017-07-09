@@ -114,7 +114,7 @@ namespace DvdLibraryMilestone5.Data.Repositories
             return dvd;
         }
 
-        public IEnumerable<Dvd> GetbyRating(int rating)
+        public IEnumerable<Dvd> GetbyRating(string rating)
         {
             throw new NotImplementedException();
         }

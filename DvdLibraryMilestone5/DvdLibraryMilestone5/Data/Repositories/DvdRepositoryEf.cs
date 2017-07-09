@@ -32,7 +32,7 @@ namespace DvdLibraryMilestone5.Data.Repositories
             return _ctx.Dvds.Find(id);
         }
 
-        public IEnumerable<Dvd> GetbyRating(int rating)
+        public IEnumerable<Dvd> GetbyRating(string rating)
         {
             throw new NotImplementedException();
         }

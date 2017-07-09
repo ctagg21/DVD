@@ -14,8 +14,8 @@ namespace DvdLibraryMilestone5.Data.Repositories
         {
             _dvds = new List<Dvd>()
             {
-                new Dvd { DvdId= 1, RatingId= 2, Title= "Star Wars", Director= "Test Director", ReleaseYear = "2000"},
-                new Dvd { DvdId = 2, RatingId = 3, Title="Terminator", Director = "Test 2", ReleaseYear = "1998"}
+                new Dvd { DvdId= 1, RatingId= "PG-13", Title= "Star Wars", Director= "George Lucas", ReleaseYear = "1977"},
+                new Dvd { DvdId = 2, RatingId = "PG-13", Title="Terminator", Director = "James Cameron", ReleaseYear = "1984"}
             };
         }
 
@@ -35,8 +35,8 @@ namespace DvdLibraryMilestone5.Data.Repositories
 
         public IEnumerable<Dvd> GetAll()
         {
-            throw new NotImplementedException();
-            //return _dvds;
+            
+            return _dvds;
         }
 
         public Dvd GetById(int id)
@@ -44,24 +44,24 @@ namespace DvdLibraryMilestone5.Data.Repositories
             return _dvds.FirstOrDefault(d => d.DvdId == id);
         }
 
-        public IEnumerable<Dvd> GetbyRating(int rating)
+        public IEnumerable<Dvd> GetbyRating(string rating)
         {
-            throw new NotImplementedException();
+            return _dvds.Where(d=>d.RatingId == rating);
         }
 
         public IEnumerable<Dvd> GetByTitle(string title)
         {
-            throw new NotImplementedException();
+            return _dvds.Where(d => d.Title == title);
         }
 
         public IEnumerable<Dvd> GetByDirector(string director)
         {
-            throw new NotImplementedException();
+            return _dvds.Where(d => d.Director == director);
         }
 
         public IEnumerable<Dvd> GetByReleaseYear(string year)
         {
-            throw new NotImplementedException();
+            return _dvds.Where(d => d.ReleaseYear == year);
         }
 
         public void Update(Dvd dvd)

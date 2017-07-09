@@ -10,10 +10,11 @@ namespace DvdLibraryMilestone5.Models
     {
         public int DvdId { get; set; }
         public string Title { get; set; }
-        public int RatingId { get; set; }
+        public string RatingId { get; set; }
         public string Director { get; set; }
         [MaxLength(4)]
         public string ReleaseYear { get; set; }
+        public string Notes { get; set; }
 
 
 
