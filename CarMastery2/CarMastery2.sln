@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarMastery2", "CarMastery2\CarMastery2.csproj", "{4CFC5ACA-3996-476E-B253-99C73C49EEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarMastery.Data", "CarMastery.Data\CarMastery.Data.csproj", "{1FE4E44A-AA1C-4A2D-A95E-433FD08432DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarMastery.Models", "CarMastery.Models\CarMastery.Models.csproj", "{0CD42DAF-DEEF-4E30-96FE-FF7BD9CF39E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CFC5ACA-3996-476E-B253-99C73C49EEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFC5ACA-3996-476E-B253-99C73C49EEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFC5ACA-3996-476E-B253-99C73C49EEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFC5ACA-3996-476E-B253-99C73C49EEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE4E44A-AA1C-4A2D-A95E-433FD08432DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE4E44A-AA1C-4A2D-A95E-433FD08432DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE4E44A-AA1C-4A2D-A95E-433FD08432DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE4E44A-AA1C-4A2D-A95E-433FD08432DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD42DAF-DEEF-4E30-96FE-FF7BD9CF39E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD42DAF-DEEF-4E30-96FE-FF7BD9CF39E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD42DAF-DEEF-4E30-96FE-FF7BD9CF39E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD42DAF-DEEF-4E30-96FE-FF7BD9CF39E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -21,14 +21,14 @@ GO
 
 
 CREATE TABLE Ratings (
-	RatingId varchar(5) not null primary key
+	RatingId nvarchar(5) not null primary key
 )
 
 CREATE TABLE Dvds (
 	DvdId int identity(1,1) not null primary key,
-	RatingId varchar(5) not null foreign key references Ratings(RatingId),
+	RatingId nvarchar(5) not null foreign key references Ratings(RatingId),
 	Title varchar(25) not null,
 	ReleaseYear varchar(4),
-	Director varchar(20),
+	Director varchar(50),
 	Notes varchar(50)
 )
